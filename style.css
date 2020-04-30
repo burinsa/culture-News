@@ -101,9 +101,11 @@ input[type="radio"].visually-hidden {
     color: #000000;
 }
 
-.header-nav__item a:hover {
+.header-nav__item a:hover,
+.footer-nav__item a:hover {
     color: #FF7931;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #FF7931;
+    transition-duration: 0.4s;
 }
 
 .main-article {
@@ -353,7 +355,7 @@ input[type="radio"].visually-hidden {
 .footer-nav {
     max-width: 1170px;
     margin: 0 auto;
-    padding-bottom: 47px;
+    padding-bottom: 32px;
 
     background-color: #575757;
     border-bottom: 1px solid #ffffff;
@@ -377,11 +379,6 @@ input[type="radio"].visually-hidden {
 
 .footer-nav__item a {
     color: #ffffff;
-}
-
-.footer-nav__item a:hover {
-    color: #FF7931;
-    border-bottom: 1px solid #FF7931;
 }
 
 .social-list {
